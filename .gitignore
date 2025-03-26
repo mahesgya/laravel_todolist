@@ -1,0 +1,58 @@
+# Laravel & PHP Specific
+/vendor/
+*/node_modules/
+*.log
+.env
+.env.*  
+.phpunit.result.cache
+.phpstorm.meta.php
+/storage/
+bootstrap/cache/
+vendor/
+
+# Ignoring IDE/editor files
+.idea/
+.vscode/
+*.sublime-workspace
+
+# Composer dependencies
+composer.lock
+
+# NPM/Yarn dependencies
+package-lock.json
+yarn.lock
+
+# Cache & Logs
+storage/framework/cache/*
+storage/framework/sessions/*
+storage/framework/views/*
+storage/logs/*
+
+# Laravel Telescope (jika digunakan)
+storage/telescope/*
+storage/debugbar/*
+
+# Ignoring deployment files
+.env
+Homestead.yaml
+Homestead.json
+vagrantfile
+
+# Ignoring system files
+.DS_Store
+Thumbs.db
+*.bak
+*.swp
+*.swo
+
+# Ignore compiled assets (jika build frontend)
+public/hot
+public/storage
+public/mix-manifest.json
+public/css/app.css
+public/js/app.js
+public/build/
+
+# SQLite Database (jika digunakan)
+database/*.sqlite
+database/*.sqlite3
